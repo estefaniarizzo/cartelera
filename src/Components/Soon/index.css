@@ -12,7 +12,9 @@
     width: 100%;
     height: auto;
 }
-.container-funny {
+
+.container-soon
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +23,20 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
-  .container-funny:hover > .box-funny {
+  
+  .container-soon:hover > .box-soon
+  {
     filter: brightness(22%) blur(2px);
   }
-  .container-funny:hover > .box-funny:hover {
+  
+  .container-soon:hover > .box-soon:hover 
+  {
     filter: brightness(100%);
   }
-  .container-funny .box-funny {
+   
+  .container-soon .box-soon
+  
+  {
     position: relative;
     height: 100%;
     transition: all 0.4s;
@@ -37,14 +46,18 @@
     flex: 1;
     margin: 0 10px;
   }
-  .container-funny .box-funny .title-funny {
+  
+  .container-soon .box-soon .title-soon
+   {
     position: relative;
     margin: 26px auto;
     width: 100%;
     height: auto;
     text-align: center;
   }
-  .container-funny .box-funny .title-funny h1 {
+   
+  .container-soon .box-soon .title-soon h1 
+   {
     text-transform: uppercase;
     color: white;
     font-family: "Josefin Sans", sans-serif;
@@ -56,7 +69,9 @@
     transition: font-size 0.3s;
     vertical-align: middle;
   }
-  .container-funny .box-funny .title-funny h3 {
+   
+  .container-soon .box-soon .title-soon h3
+  {
     text-transform: uppercase;
     font-family: "Josefin Sans", sans-serif;
     font-size: 8px;
@@ -66,7 +81,9 @@
     letter-spacing: 3px;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
   }
-  .container-funny .box-funny .desc-funny {
+  
+  .container-soon .box-soon .desc-soon
+  {
     position: relative;
     display: block;
     text-align: center;
@@ -78,7 +95,11 @@
     padding-top: 6vh;
     transform: scale(1);
   }
-  .container-funny .box-funny .desc-funny p {
+  
+  .container-soon .box-soon .desc-soon p
+  
+
+   {
     margin: 0;
     font-family: "Poppins", sans-serif;
     color: black;
@@ -87,38 +108,47 @@
       0px -4px 10px rgba(255, 255, 255, 0.3);
     font-weight: bold;
   }
-  .container-funny .box-funny:hover {
+  
+  .container-soon .box-soon:hover
+   {
     flex-grow: 1.3;
     transition: 0.2s;
   }
-  .container-funny .box-funny:hover > .title-funny h1 {
+  
+  .container-soon .box-soon:hover > .title-soon h1
+   {
     font-size: 4vw;
     transition: 0.4s;
   }
-  .container-funny .box-funny:hover > .title-funny h3 {
+   
+  .container-soon .box-soon:hover > .title-soon h3
+  {
     font-size: 1.5vw;
     transition: all 0.4s;
   }
-  .container-funny .box-funny:hover > .desc-funny {
+  
+  .container-soon .box-soon:hover > .desc-soon
+   {
     opacity: 1;
     padding-top: 2vh;
     transform: scale(1.5);
     transition: opacity 0.5s;
     transition-delay: 0s, 0.1s, 0s;
   }
-  .container-funny .box-funny:nth-child(1) {
-    background: url("../../assets/Cartelera/Barbie.jpg") center;
+
+  .container-soon .box-soon:nth-child(1) {
+    background: url("../../assets/Proximos estrenos/saw10.png") center;
     background-size: cover;
   }
-  .container-funny .box-funny:nth-child(2) {
-    background: url("../../assets/Cartelera/Blue-bettle.jpg") top;
+  .container-soon .box-soon:nth-child(2) {
+    background: url("../../assets/Proximos estrenos/Caceria-en-venecia.png") top;
     background-size: cover;
   }
-  .container-funny .box-funny:nth-child(3) {
-    background: url("../../assets/Cartelera/Dracula-mar-de-sangre.jpg") top;
+  .container-soon .box-soon:nth-child(3) {
+    background: url("../../assets/Proximos estrenos/Contrareloj.png") top;
     background-size: cover;
   }
-  .container-funny .box-funny:nth-child(4) {
-    background: url("../../assets/Cartelera/Gran-turismo.jpg") top;
+  .container-soon .box-soon:nth-child(4) {
+    background: url("../../assets/Proximos estrenos/Los-juegos-del-hambre-la-baladadepajaroscantoresyserpientes.jpg") top;
     background-size: cover;
   }

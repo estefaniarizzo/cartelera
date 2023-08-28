@@ -1,0 +1,138 @@
+.h1-section{
+    
+    color: dark;
+    text-align:left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.movies-section{
+  
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.container-alternative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  .container-alternative:hover > .box-alternative {
+    filter: brightness(22%) blur(2px);
+  }
+  
+  .container-alternative:hover > .box-alternative:hover{
+    filter: brightness(100%);
+  }
+  
+  .container-alternative .box-alternative
+  {
+    position: relative;
+    height: 100%;
+    transition: all 0.4s;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .container-alternative .box-alternative .title-alternative {
+    position: relative;
+    margin: 26px auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .container-alternative .box-alternative .title-alternative h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin: 0;
+    transition: font-size 0.3s;
+    vertical-align: middle;
+  }
+  
+  .container-alternative .box-alternative .title-alternative h3{
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 8px;
+    transition: all 0.3s;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+ 
+  .container-alternative .box-alternative .desc-alternative {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 14vw;
+    height: auto;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 0.8s, transform 0.7s, padding-top 0.9s;
+    padding-top: 6vh;
+    transform: scale(1);
+  }
+  
+  .container-alternative .box-alternative .desc-alternative p
+
+   {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 13px;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+  }
+  
+  .container-alternative .box-alternative:hover {
+    flex-grow: 1.3;
+    transition: 0.2s;
+  }
+  
+  .container-alternative .box-alternative:hover > .title-alternative h1 {
+    font-size: 4vw;
+    transition: 0.4s;
+  }
+  
+  .container-alternative .box-alternative:hover > .title-alternative h3{
+    font-size: 1.5vw;
+    transition: all 0.4s;
+  }
+  
+  .container-alternative .box-alternative:hover > .desc-alternative {
+    opacity: 1;
+    padding-top: 2vh;
+    transform: scale(1.5);
+    transition: opacity 0.5s;
+    transition-delay: 0s, 0.1s, 0s;
+  }
+
+  .container-alternative .box-alternative:nth-child(1) {
+    background: url("../../assets/Cine alternativo/historiasdetokio.png") center;
+    background-size: cover;
+  }
+  .container-alternative .box-alternative:nth-child(2) {
+    background: url("../../assets/Cine alternativo/andre-rieu.jpg") top;
+    background-size: cover;
+  }
+  .container-alternative .box-alternative:nth-child(3) {
+    background: url("../../assets/Cine alternativo/vermeer.png") top;
+    background-size: cover;
+  }
+  

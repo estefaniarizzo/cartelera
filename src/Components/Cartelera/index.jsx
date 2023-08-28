@@ -1,6 +1,7 @@
 import './index.css';
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import Soon from '../Soon'
+import Alternative from '../Alternative'
 
 function CarrouselCartelera() {
   return (
@@ -53,6 +54,10 @@ function CarrouselCartelera() {
         </div>
       </section>
       <br />
+      <Soon/>
+     <Alternative/>
+      
+      
     </div>
   );
 }

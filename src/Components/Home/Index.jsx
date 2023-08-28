@@ -1,5 +1,5 @@
 import NavBar from "../Header";
-import CarrouselCartelera from "../Carrousel-Cartelera";
+import CarrouselCartelera from "../Cartelera";
 const Home =()=>{
     return(
         <><NavBar />
