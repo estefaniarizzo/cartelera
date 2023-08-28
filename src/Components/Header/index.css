@@ -1,0 +1,35 @@
+.Nav-Item{
+display: flex;
+width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.90); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 0.50px black solid;
+    justify-content: space-around;
+    padding: 30px;
+   position: sticky;
+    
+}
+.Nav-Link{
+    color: aliceblue;
+    text-decoration: none;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .Nav-Item {
+        flex-direction: column;
+        padding: 15px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+    .Nav-Item {
+        padding: 10px;
+    }
+}
+
+.Nav-Link {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
