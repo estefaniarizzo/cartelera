@@ -1,0 +1,21 @@
+
+/* index.css */
+.cine-alternativo-container {
+    margin-top: 20px; /* Añade un margen superior para separar del Header */
+    padding: 20px; /* Agrega un relleno para espacio alrededor de la tarjeta */
+}
+
+.img-container {
+    text-align: center; /* Centra horizontalmente el contenido del div */
+}
+
+.img-CA {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+}
+.card-tittle{
+    color: rgb(0, 68, 255);
+    font-weight: bold;
+}
+.h1-title{
+    margin-left: 500px;
+}
