@@ -7,8 +7,8 @@ const initialState = {
   const moviesReducer = (state = initialState, action) => {
     switch (action.type) {
       // Agrega casos para las acciones aquí, por ejemplo:
-      // case 'CARGAR_CARTELERA':
-      //   return { ...state, cartelera: action.payload };
+      case 'CARGAR_CARTELERA':
+      return { ...state, cartelera: action.payload };
       default:
         return state;
     }

@@ -12,6 +12,7 @@ import oppenheimer from '../../../assets/Cartelera/Oppenheimer.jpg'
 import summit from '../../../assets/Cartelera/Summit-fever.jpg'
 import talk from '../../../assets/Cartelera/Talk-to-me.jpg'
 import vampiro from '../../../assets/Cartelera/Vampiro-al-rescate.jpg'
+import { connect } from 'react-redux';
 function EnCartelera() {
     return (
         <>
