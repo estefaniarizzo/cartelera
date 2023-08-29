@@ -3,11 +3,12 @@ import React from 'react';
 import Soon from '../Soon'
 import Alternative from '../Alternative'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { IoIosArrowRoundForward } from "react-icons/io";
 function CarrouselCartelera() {
   return (
     <div className='movies-section'>
       <br />
-      <h1 className='h1-section'>En Cartelera<a  className='a-link' href="../en-cartelera">Ver mas</a></h1>
+      <h1 className='h1-section'>En Cartelera<a  className='a-link' href="../en-cartelera">Ver mas<IoIosArrowRoundForward/></a></h1>
       
       <section className="container-funny">
         <div className="box-funny">
