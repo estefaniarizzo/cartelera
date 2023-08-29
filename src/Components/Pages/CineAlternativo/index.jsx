@@ -12,7 +12,7 @@ function CineAlternativo() {
             <Header />
             <div className="cine-alternativo-container">
                 <h1 className='card-tittle  h1-title'>Cine Alternativo</h1>
-                <Card>
+                <Card className='card-container'>
                     <Card.Header className='card-tittle'>Historias de Tokyo</Card.Header>
                     <Card.Body>
                         <Card.Title>Documental</Card.Title>
@@ -31,8 +31,8 @@ function CineAlternativo() {
                     </Card.Body>
                 </Card>
                 <br />
-                <Card>
-                    <Card.Header className='card-tittle'>Andre-Riu</Card.Header>
+                <Card className='card-container'>
+                    <Card.Header className='card-tittle'>Andre-Rieu</Card.Header>
                     <Card.Body>
                         <Card.Title>Concierto</Card.Title>
                         <Card.Text>
@@ -53,8 +53,8 @@ function CineAlternativo() {
                     </Card.Body>
                 </Card>
                 <br />
-                <Card>
-                    <Card.Header className='c'>Vermeer</Card.Header>
+                <Card className='card-container'>
+                    <Card.Header className='card-tittle'>Vermeer</Card.Header>
                     <Card.Body>
                         <Card.Title>Arte</Card.Title>
                         <Card.Text>
@@ -70,6 +70,7 @@ function CineAlternativo() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
+                
             </div>
         </>
     );
