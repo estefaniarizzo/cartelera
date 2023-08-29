@@ -1,0 +1,27 @@
+/* page404.css */
+.div-error {
+    background: url(../../assets/error404.jpg);
+    width: 100%;
+    height: 600px; /* Ajuste de la altura del contenedor */
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alineación vertical y horizontal */
+}
+
+.h1-error {
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0; /* Eliminamos el margen superior e inferior */
+}
+
+.enlace-volver {
+    text-align: center;
+    margin-top: 400px; /* Añadimos margen superior para el enlace */
+    text-decoration: none;
+    font-size: 60px;
+    color: black;
+}

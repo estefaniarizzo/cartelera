@@ -11,8 +11,11 @@ width: 100%;
     
 }
 .Nav-Link{
-    color: aliceblue;
+    
     text-decoration: none;
+}
+.Nav-Link:hover{
+    color: aliceblue;
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .Nav-Item {
