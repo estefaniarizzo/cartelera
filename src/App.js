@@ -5,6 +5,7 @@ import CineAlternativo from './Components/Pages/CineAlternativo';
 import EnCartelera from './Components/Pages/EnCartelera';
 import ProximosEstrenos from './Components/Pages/ProximosEstrenos';
 import Page_error404 from './Components/Error404';
+
 function App() {
   return (
     <Router>
