@@ -12,12 +12,12 @@ import oppenheimer from '../../../assets/Cartelera/Oppenheimer.jpg'
 import summit from '../../../assets/Cartelera/Summit-fever.jpg'
 import talk from '../../../assets/Cartelera/Talk-to-me.jpg'
 import vampiro from '../../../assets/Cartelera/Vampiro-al-rescate.jpg'
-function EnCartelera() {
+function ProximosEstrenos() {
     return (
         <>
             <Header />
             <div className="cine-alternativo-container">
-                <h1 className='card-tittle  h1-title'>En Cartelera</h1>
+                <h1 className='card-tittle  h1-title'>Proximos Estrenos</h1>
                 <Card>
                     <Card.Header className='card-tittle'>Barbie</Card.Header>
                     <Card.Body>
@@ -204,4 +204,4 @@ function EnCartelera() {
     );
 }
 
-export default EnCartelera;
+export default ProximosEstrenos;

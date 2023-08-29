@@ -7,7 +7,8 @@ function CarrouselCartelera() {
   return (
     <div className='movies-section'>
       <br />
-      <h1 className='h1-section'>En Cartelera</h1>
+      <h1 className='h1-section'>En Cartelera<a  className='a-link' href="../en-cartelera">Ver mas</a></h1>
+      
       <section className="container-funny">
         <div className="box-funny">
           <div className="title-funny">

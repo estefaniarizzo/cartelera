@@ -12,7 +12,13 @@
     width: 100%;
     height: auto;
 }
-
+.a-link-soon{
+  margin-left: 940px;
+}
+.a-link-soon:hover
+{
+  color: rgb(0, 195, 255);
+}
 .container-soon
 {
     display: flex;

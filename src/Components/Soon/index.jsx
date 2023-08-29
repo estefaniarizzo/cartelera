@@ -4,7 +4,7 @@ function Soon (){
     return (
 <div className='movies-section'>
     
-      <h1 className='h1-section'>Proximos Estrenos</h1>
+      <h1 className='h1-section'>Proximos Estrenos <a  className='a-link-soon' href="../proximos-estrenos">Ver mas</a></h1>
       <section className="container-soon">
         <div className="box-soon">
           <div className="title-soon">

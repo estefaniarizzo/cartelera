@@ -3,7 +3,7 @@ import './index.css'
 function Alternative (){
     return(
         <div className='movies-section'>
-        <h1 className='h1-section'>Cine Alternativo</h1>
+        <h1 className='h1-section'>Cine Alternativo<a  className='a-link-alternative' href="../cine-alternativo">Ver mas</a></h1>
         <section className="container-alternative">
           <div className="box-alternative">
             <div className="title-alternative">

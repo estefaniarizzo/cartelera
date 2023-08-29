@@ -6,6 +6,13 @@
     font-size: 20px;
     margin-bottom: 20px;
 }
+.a-link{
+  margin-left: 1000px;
+}
+.a-link:hover
+{
+  color: rgb(0, 195, 255);
+}
 .movies-section{
   
     padding: 0;
