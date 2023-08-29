@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './index.css'
+
 const Page_error404 = () => {
     return (
         <div>
