@@ -30,8 +30,8 @@ function ProximosEstrenos() {
                       <br />
                       {pelicula.descripcion}
                       <br />
-                      <br />
-                      Estreno: {pelicula.estreno}
+                      <br /><button disabled className='type'>
+                      Estreno: {pelicula.estreno}</button>
                     </Card.Text>
                   </Card.Body>
                 </Card>

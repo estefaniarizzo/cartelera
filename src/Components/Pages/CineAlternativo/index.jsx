@@ -32,7 +32,8 @@ function CineAlternativo() {
                       {pelicula.descripcion}
                       <br />
                       <br />
-                      Estreno: {pelicula.estreno}
+                      <button disabled className='type'>
+                      Estreno: {pelicula.estreno}</button>
                     </Card.Text>
                   </Card.Body>
                 </Card>

@@ -20,3 +20,9 @@
 .h1-title-soon{
     margin-left: 420px;
 }
+.type{
+    background: linear-gradient(rgb(151, 139, 255), rgb(192, 255, 255));
+    color: black;
+    border-radius: 5px;
+
+}
