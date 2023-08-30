@@ -1,38 +1,51 @@
-.Nav-Item{
-display: flex;
-width: 100%; 
-    height: 100%; 
-    background: rgba(166, 222, 255, 0.9); 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    border: 0.50px rgb(66, 24, 184) solid;
+.Nav-Item {
+    display: flex;
+    width: 100%;
+    background: rgba(166, 222, 255, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0.5px rgb(66, 24, 184) solid;
     justify-content: space-around;
     padding: 30px;
-   position: sticky;
-    
-}
-.Nav-Link{
-    
-    text-decoration: none;
-}
-.Nav-Link:hover{
-    color: aliceblue;
-}
-@media (min-width: 481px) and (max-width: 767px) {
-    .Nav-Item {
-        flex-direction: column;
-        padding: 15px;
-    }
-}
-
-/* Estilos para pantallas pequeñas */
-@media (max-width: 480px) {
-    .Nav-Item {
-        padding: 10px;
-    }
-}
-
-.Nav-Link {
+    position: sticky;
+    top: 0; /* Asegura que el menú se mantenga en la parte superior */
+    z-index: 100; /* Ajusta si es necesario */
+  }
+  
+  .Nav-Link {
     color: aliceblue;
     text-decoration: none;
     padding: 5px;
-}
+    transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+  }
+  
+  .Nav-Link:hover {
+    color: royalblue; /* Cambia el color al hacer hover */
+  }
+  
+  @media (max-width: 767px) {
+    .Nav-Item {
+
+      flex-direction: column; /* Cambia la orientación a columna en pantallas pequeñas */
+    }
+  
+    .Nav-Link {
+      text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para pantallas aún más pequeñas (opcional) */
+  @media (max-width: 480px) {
+    .Nav-Item {
+      padding: 10px;
+    }
+  }  
+  @media (max-width: 2500px) {
+    .Nav-Item {
+    
+      justify-content: space-around; /* Cambia la orientación a columna en pantallas pequeñas */
+    }
+  
+    .Nav-Link {
+      text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+  }

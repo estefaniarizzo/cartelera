@@ -1,55 +1,55 @@
-.h1-section{
-    
-    color: dark;
-    text-align:left;
-    margin-left: 10px;
-    font-size: 20px;
-    margin-bottom: 20px;
+.h1-section {
+  color: dark;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.a-link{
-  margin-left: 1000px;
+
+.a-link {
+  margin-left: 20px;
   text-decoration: none;
 }
-.a-link:hover
-{
+
+.a-link:hover {
   color: rgb(0, 195, 255);
 }
-.movies-section{
-  
-    padding: 0;
-    width: 100%;
-    height: auto;
+
+.movies-section {
+  padding: 0;
+  width: 100%;
+  height: auto;
 }
-.container-funny 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  }
-  .container-funny:hover > .box-funny
-  {
-    filter: brightness(22%) blur(2px);
-  }
-  .container-funny:hover > .box-funny:hover
- {
-    filter: brightness(100%);
-  }
-  .container-funny .box-funny 
-  
-  {
-    position: relative;
-    height: 100%;
-    transition: all 0.4s;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-    margin: 0 10px;
-  }
+
+.container-funny {
+  display: flex;
+flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-funny:hover > .box-funny {
+  filter: brightness(22%) blur(2px);
+}
+
+.container-funny:hover > .box-funny:hover {
+  filter: brightness(100%);
+}
+
+.container-funny .box-funny {
+  position: relative;
+  height: 100%;
+  transition: all 0.4s;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
   .container-funny .box-funny .title-funny
   {
     position: relative;
@@ -134,17 +134,18 @@
     background: url("../../assets/Cartelera/Barbie.jpg") center;
     background-size: cover;
   }
+  
   .container-funny .box-funny:nth-child(2) {
     background: url("../../assets/Cartelera/Blue-bettle.jpg") top;
     background-size: cover;
   }
+  
   .container-funny .box-funny:nth-child(3) {
     background: url("../../assets/Cartelera/Dracula-mar-de-sangre.jpg") top;
     background-size: cover;
   }
+  
   .container-funny .box-funny:nth-child(4) {
     background: url("../../assets/Cartelera/Gran-turismo.jpg") top;
     background-size: cover;
   }
- 
-

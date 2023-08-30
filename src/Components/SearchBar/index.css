@@ -49,3 +49,23 @@
   .icon-search{
     border-radius: 36px;
   }
+  @media (max-width: 767px) {
+    .search{
+      margin-left: 220px;
+    }
+  }
+  @media (max-width: 760px) {
+    .search{
+      margin-left: 200px;
+    }
+  }
+  @media (max-width: 600px) {
+    .search{
+      margin-left: 100px;
+    }
+  }
+  @media (max-width: 100px) {
+    .search{
+      margin-left: 10px;
+    }
+  }

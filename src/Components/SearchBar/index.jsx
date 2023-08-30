@@ -20,9 +20,9 @@ function SearchBar({ terminoDeBusqueda, setTerminoDeBusqueda }) {
         value={terminoDeBusqueda}
         onChange={handleInputChange}
       />
-      <button className="search__button">
+      
         
-      </button>
+     
     </div>
   );
 }
