@@ -2,7 +2,7 @@ import './index.css';
 import React from 'react';
 import Soon from '../Soon'
 import Alternative from '../Alternative'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';  
 import { IoIosArrowRoundForward } from "react-icons/io";
 function CarrouselCartelera() {
   return (
