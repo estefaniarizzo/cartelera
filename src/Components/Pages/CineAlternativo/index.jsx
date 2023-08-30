@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import Header from '../../Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css'; // Importa tus estilos CSS locales si es necesario
+import './index.css'; 
 import peliculas from './peliculasData';
 import { useSelector } from 'react-redux';
 function CineAlternativo() {

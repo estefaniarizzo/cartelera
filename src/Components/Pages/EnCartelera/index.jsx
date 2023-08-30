@@ -4,7 +4,7 @@ import Header from '../../Header';
 import peliculas from './peliculasData';
 import './index.css'
 import { useSelector } from 'react-redux';
-import { setTerminoDeBusqueda } from '../../redux/actions/moviesActions';
+
 function EnCartelera() {
   const terminoDeBusqueda = useSelector(state => state.terminoDeBusqueda);
 
