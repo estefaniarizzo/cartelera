@@ -1,6 +1,4 @@
-export const actualizarTerminoBusqueda = (termino) => {
-    return {
-      type: 'ACTUALIZAR_TERMINO_BUSQUEDA',
-      payload: termino
-    };
-  };
+export const setTerminoDeBusqueda = (termino) => ({
+  type: 'SET_TERMINO_DE_BUSQUEDA',
+  payload: termino,
+});

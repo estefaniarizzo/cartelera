@@ -3,16 +3,22 @@ import { Card } from 'react-bootstrap';
 import Header from '../../Header';
 import peliculas from './peliculasData';
 import './index.css'
-
-
+import { useSelector } from 'react-redux';
+import { setTerminoDeBusqueda } from '../../redux/actions/moviesActions';
 function ProximosEstrenos() {
+    const terminoDeBusqueda = useSelector(state => state.terminoDeBusqueda);
+
+  // Filtrar las películas en función del término de búsqueda
+  const peliculasFiltradas = peliculas.filter(pelicula =>
+    pelicula.titulo.toLowerCase().includes(terminoDeBusqueda.toLowerCase())
+  );
     return (
         <>
           <Header />
           <div className="cine-alternativo-container">
             <h1 className='card-tittle h1-title'>Proximos Estrenos</h1>
             <div className="card-container"> {/* Contenedor para las cards */}
-              {peliculas.map((pelicula) => (
+              {peliculasFiltradas.map((pelicula) => (
                 <Card key={pelicula.id} className="movie-card">
                   <Card.Header className='card-tittle'>{pelicula.titulo}</Card.Header>
                   <Card.Body>

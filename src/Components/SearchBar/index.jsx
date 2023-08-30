@@ -3,12 +3,12 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 import React from 'react';
 import { connect } from 'react-redux';
-import { actualizarTerminoBusqueda } from '../redux/actions/moviesActions'; // Asegúrate de ajustar la ruta
+import { setTerminoDeBusqueda} from '../redux/actions/moviesActions'; // Asegúrate de ajustar la ruta
 
-function SearchBar({ terminoDeBusqueda, actualizarTerminoBusqueda }) {
+function SearchBar({ terminoDeBusqueda, setTerminoDeBusqueda }) {
   const handleInputChange = (e) => {
     const nuevoTermino = e.target.value;
-    actualizarTerminoBusqueda(nuevoTermino);
+    setTerminoDeBusqueda(nuevoTermino);
   };
 
   return (
@@ -29,14 +29,14 @@ function SearchBar({ terminoDeBusqueda, actualizarTerminoBusqueda }) {
 
 const mapStateToProps = (state) => {
   return {
-    terminoDeBusqueda: state.movies.terminoDeBusqueda
+    terminoDeBusqueda: state.terminoDeBusqueda
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    actualizarTerminoBusqueda: (termino) =>
-      dispatch(actualizarTerminoBusqueda(termino))
+    setTerminoDeBusqueda: (termino) =>
+      dispatch(setTerminoDeBusqueda(termino))
   };
 };
 
