@@ -29,6 +29,9 @@ function EnCartelera() {
                     </div>
                     <br />
                     {pelicula.descripcion}
+                    <br />
+                    <br />
+                    Estreno: {pelicula.estreno}
                   </Card.Text>
                 </Card.Body>
               </Card>
