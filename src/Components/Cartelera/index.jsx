@@ -13,45 +13,45 @@ function CarrouselCartelera() {
       <section className="container-funny">
         <div className="box-funny">
           <div className="title-funny">
-            <h3>Genero: <br />Comedia</h3>
+            
             <h1>Barbie</h1>
           </div>
           <div className="desc-funny">
             <p className='description-movie'>
-              Vivir en Barbie Land es ser un ser perfecto en un lugar perfecto, a menos que tengas una crisis existencial total, o seas un Ken.
+              Comedia
             </p>
           </div>
         </div>
         <div className="box-funny">
           <div className="title-funny">
-            <h3>Genero: <br />Ciencia Ficción</h3>
+            
             <h1>Blue Beetle</h1>
           </div>
           <div className="desc-funny">
             <p className='description-movie'>
-              En su búsqueda por encontrar su propósito en el mundo, el destino interviene cuando Jaime se encuentra inesperadamente en posesión de una antigua reliquia de biotecnología alienígena: el escarabajo.
+             DC comics
             </p>
           </div>
         </div>
         <div className="box-funny">
           <div className="title-funny">
-            <h3>Genero: <br />Terror</h3>
+            
             <h1>Dracula mar de sangre</h1>
           </div>
           <div className="desc-funny">
             <p className='description-movie'>
-              Historia del barco mercante Demeter, encargado de transportar una carga privada de 50 cajas de madera sin marcar.
+             Terror
             </p>
           </div>
         </div>
         <div className="box-funny">
           <div className="title-funny">
-            <h3>Genero: <br />Accion</h3>
+            
             <h1>Gran Turismo</h1>
           </div>
           <div className="desc-funny">
             <p className='description-movie'>
-              Historia definitiva de deseos cumplidos de un jugador adolescente de “Gran Turismo”, cuyas habilidades de gaming le llevaron a ganar una serie de competencias de Nissan
+             Accion
             </p>
           </div>
         </div>
