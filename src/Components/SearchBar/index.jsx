@@ -1,5 +1,5 @@
 import './index.css'
-import { AiOutlineSearch } from "react-icons/ai";
+
 
 import React from 'react';
 import { connect } from 'react-redux';
@@ -21,7 +21,7 @@ function SearchBar({ terminoDeBusqueda, setTerminoDeBusqueda }) {
         onChange={handleInputChange}
       />
       <button className="search__button">
-        <AiOutlineSearch className="icon-search" />
+        
       </button>
     </div>
   );
