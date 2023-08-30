@@ -28,7 +28,7 @@ function Alternative (){
             </div>
           </div>
           
-         
+          
           
         </section>
         <br />
